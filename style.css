@@ -1,0 +1,90 @@
+/* style untuk button */
+h1{
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    text-indent: 30px;
+    line-height: 1.5;
+    font-size: 16px;
+    color: plum;
+    font-family: cursive;
+}
+
+li{
+    color: palevioletred;
+    font-size: 12px;
+    font-family: cursive;
+}
+
+a:link{
+    color: midnightblue;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: darkcyan;
+}
+
+.button{
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: #FFFF;
+    text-align: center;
+    font-size: 28px;
+}
+
+.button:hover{
+    background-color: orange;}
+
+.button:active{
+    background-color: 3e8e41;
+    box-shadow: 0px #666;
+}
+
+/* style untuk table */
+table{
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th:first-child, td:first-child{
+    width: 50px;
+}
+
+th:not(:first-child), td:not(:first-child){
+    width: 100px;
+    border-bottom: 1px solid white;
+}
+
+th, td{
+    border-bottom: 1px solid white;
+}
+
+thead{
+    background-color: #00d0ff;
+    color: #0f2e92;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(81, 174, 224);
+    color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color: #81CFE0;
+    color: white;
+}
+
+tbody tr:hover{
+    background-color: #088395; /* digunakan untuk membuat warna latar menjadi warna #088395 saat hover */
+    color: black; /* digunakan untuk mengubah warna teks menjadi warna hitam saat hover  */
+}
